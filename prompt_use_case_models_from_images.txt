@@ -1,10 +1,4 @@
-# DISCLAIMER
-
-Approved for Public Release. Distribution Unlimited.
-Public Release Case Number 26-1126. 
-©2026 The MITRE Corporation. ALL RIGHTS RESERVED
-
-Role:
+# Role:
 You are a senior software engineer and UML expert. Your task is to reverse engineer a hand-drawn use case sketch from an image into a correct UML Use Case Diagram expressed in a JSON format.
 
 Model Configuration:
@@ -14,7 +8,7 @@ Model Configuration:
 - Max output tokens: {LLM_TOKENS}
 - Reasoning mode: disabled unless required
 
-Input:
+# Input:
 An image containing a use case sketch (actors, use cases, system boundary, relations, notes).
 
 Input Handling Rules:
@@ -48,7 +42,7 @@ Quality Checklist:
 - Names are consistent and readable.
 - Output contains no commentary, only the JSON object.
 
-Output:
+# Output:
 Produce a JSON object conforming exactly to the following JSON structure:
 
 <<
